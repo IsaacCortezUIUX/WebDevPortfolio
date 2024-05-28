@@ -1,0 +1,72 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    background: url('nightsky.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100%;
+    overflow: scroll;
+}
+
+header {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger ;
+    background-color: #ffffff;
+    color: #002251;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    font-weight: bold;
+    padding: 0;
+    background-color: #002251;
+    overflow: hidden;
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder ;
+    font-size: larger;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 0rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large ;
+    font-weight: 900;
+    padding: 0rem 0;
+    text-align: center;
+
+}
+
+footer {
+    background-color: #002251;
+    font-weight: bold;
+    font-size: large ;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
